@@ -1,0 +1,26 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "fresh-start": "npm run seed && node server.js",
+    "start": "node server.js",
+    "seed": "node seeds/index"
+  },
+  "author": "Disha B",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "moment": "^2.29.3",
+    "mongoose": "^6.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-standard": "^5.0.0"
+  }
+}
