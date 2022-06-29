@@ -58,7 +58,16 @@ const userController = {
       .then(dbUserData => res.json(dbUserData))
       // todo delete thoughts
       .catch(err => res.json(err));
+  },
+
+  addFriend ({ params, body }, res) {
+
+  },
+
+  removeFriend ({ params, body }, res) {
+
   }
+
 };
 
 module.exports = userController;
