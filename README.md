@@ -22,16 +22,6 @@
 
 npm install
 
-create .env file with
-DB_NAME=e_commerce_db
-DB_USER=root
-DB_PW=
-secret=
-
-mysql -u root -p
-
-source db/schema.sql
-
 ## Usage
 
 npm start

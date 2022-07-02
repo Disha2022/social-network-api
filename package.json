@@ -4,9 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "fresh-start": "npm run seed && node server.js",
-    "start": "node server.js",
-    "seed": "node seeds/index"
+    "start": "node server.js"
   },
   "author": "Disha B",
   "dependencies": {
