@@ -58,6 +58,9 @@ const userController = {
       .then(dbUserData => {
         const thoughtUpdatePromises = dbUserData.thoughts.map((thoughtId) =>
           Thought.findOneAndDelete({ _id: thoughtId }));
+        if (thoughtUpdatePromises.length === 0) {
+          res.json(dbUserData);
+        }
         return Promise.all(thoughtUpdatePromises);
       }).then(thoughtData => {
         res.json(thoughtData);
