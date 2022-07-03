@@ -26,9 +26,9 @@ npm install
 
 npm start
 
-## Demo Screenshot
+## Demo Video
 
-![screenshot](./demo.png)
+https://user-images.githubusercontent.com/99584117/177023827-107b5ff1-bbd9-491c-99a7-419b5c0b02fb.mp4
 
 ## Contributing Guidelines
 
